@@ -1,0 +1,121 @@
+body{
+  margin:0;
+  font-family: Arial;
+  scroll-behavior:smooth;
+  background:linear-gradient(120deg,#d6b397,#cbbb89);
+}
+
+/* RIGHT ICON MENU */
+.right-menu{
+  position:fixed;
+  right:15px;
+  top:50%;
+  transform:translateY(-50%);
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+  z-index:1000;
+}
+
+.right-menu a{
+  background:rgba(0,0,0,0.7);
+  color:white;
+  width:45px;
+  height:45px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  font-size:18px;
+  transition:0.3s;
+  text-decoration:none;
+}
+
+.right-menu a:hover{
+  background:#007bff;
+  transform:scale(1.1);
+}
+
+/* SECTIONS */
+section{
+  min-height:100vh;
+  padding:80px 20px;
+}
+
+h1{
+  text-align:center;
+}
+
+.card{
+  max-width:800px;
+  margin:auto;
+  background: rgba(229, 221, 221, 0.786); /* light transparent */
+  backdrop-filter: blur(10px);
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+
+}
+
+
+.heading{
+  font-size: 18px;
+}
+
+.owner{
+  height: 130px;
+  width: 130px;
+
+}
+
+/* hover on card */
+.card{
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.4);
+}
+
+#about{
+  background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),
+  url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+  background-size:cover;
+  background-position:center;
+  color:black;
+}
+
+#education{
+  background:  linear-gradient(rgba(0,0,0,0.10), rgba(0,0,0,0.15)),
+  url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b");
+  background-size:cover;
+  background-position:center;
+  color:black;
+}
+
+#skills{
+  background: linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.20)),
+  url("https://images.unsplash.com/photo-1518770660439-4636190af475");
+  background-size:cover;
+  background-position:center;
+  color:black;
+}
+
+#projects{
+  background:linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.5)),
+  url("https://images.unsplash.com/photo-1555066931-4365d14bab8c");
+  background-size:cover;
+  background-position:center;
+  color:black;
+}
+
+
+#contact{
+  background:
+  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+  url("https://images.unsplash.com/photo-1521791136064-7986c2920216");
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
